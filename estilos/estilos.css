@@ -1,0 +1,130 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #9fc5e8;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+nav {
+    background-color: #6d9eeb;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #6d9eeb;
+    border-bottom: 2px solid #6d9eeb;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+/* Estilos para el formulario de confirmación de asistencia */
+.rsvp-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.rsvp-form label {
+    margin-top: 10px;
+}
+
+.rsvp-form input, .rsvp-form select {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.rsvp-form button {
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #6d9eeb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.rsvp-form button:hover {
+    background-color: #5b86d3;
+}
+
+/* Estilos para la sección de regalos */
+.gift-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #6d9eeb;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.gift-link:hover {
+    background-color: #5b86d3;
+}
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.gallery img {
+    width: 30%;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #9fc5e8;
+    color: white;
+    margin-top: 20px;
+}
